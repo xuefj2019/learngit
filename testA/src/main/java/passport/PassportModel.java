@@ -54,7 +54,7 @@ public class PassportModel {
         JSONObject jsonObject = new JSONObject(result);
         int status = (int)jsonObject.get("status");
         Assert.assertEquals(status,70);
-        
+
         System.out.println(status);
     }
 
