@@ -3,6 +3,7 @@
     <test name="test">
         <classes>
             <class name="demo1.testSuite"/>
+            <class name="passport.PassportModel"/>
         </classes>
     </test>
     <listeners>
