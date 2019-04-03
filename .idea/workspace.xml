@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f07c148-ab53-45d2-80b0-5d8d6d4589bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../test001/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/.idea/modules.xml" afterPath="$PROJECT_DIR$/../test001/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../test001/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/test001.iml" afterPath="$PROJECT_DIR$/../test001/test001.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/testA/testA.iml" afterPath="$PROJECT_DIR$/../test001/testA/testA.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test001/testA/pom.xml" afterPath="$PROJECT_DIR$/../test001/testA/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../test001/out/" />
     <ignored path="$PROJECT_DIR$/../test001/target/" />
@@ -21,21 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../test001/testA/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+            <state relative-caret-position="169">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../test001/testA/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -164,10 +161,10 @@
         <option value="$PROJECT_DIR$/../test001/testA/src/main/java/config/InterfaceName.java" />
         <option value="$PROJECT_DIR$/../test001/testA/src/main/java/passport/PassportModel.java" />
         <option value="$PROJECT_DIR$/../test001/testA/src/main/java/demo1/demo02.java" />
-        <option value="$PROJECT_DIR$/../test001/testA/pom.xml" />
         <option value="$PROJECT_DIR$/../test001/testA/src/main/resources/mapper.xml" />
         <option value="$PROJECT_DIR$/../test001/testA/testng.xml" />
         <option value="$PROJECT_DIR$/../test001/testA/src/main/java/config/TestngRetry.java" />
+        <option value="$PROJECT_DIR$/../test001/testA/pom.xml" />
       </list>
     </option>
   </component>
@@ -1251,7 +1248,7 @@
       <workItem from="1554082428060" duration="17575000" />
       <workItem from="1554167629238" duration="3756000" />
       <workItem from="1554197733931" duration="2033000" />
-      <workItem from="1554254471994" duration="3749000" />
+      <workItem from="1554254471994" duration="4188000" />
     </task>
     <servers />
   </component>
@@ -1288,7 +1285,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58040000" />
+    <option name="totallyTimeSpent" value="58479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="858" extended-state="0" />
@@ -1673,14 +1670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test001/testA/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../test001/testA/src/main/resources/sql.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1735,7 +1724,15 @@
     <entry file="file://$PROJECT_DIR$/../test001/testA/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test001/testA/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="test001" target="1.8" />
-      <module name="testA" target="1.8" />
+      <module name="test001" target="1.5" />
+      <module name="testA" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
