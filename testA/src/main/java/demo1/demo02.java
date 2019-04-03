@@ -61,6 +61,9 @@ public class demo02 {
         entity = response.getEntity();
         String result = EntityUtils.toString(entity,"UTF-8");
 //        System.out.println(result);
+//        JSONObject jsonObject = new JSONObject(result);
+//        String status = jsonObject.get("status");
+
         return result;
     }
 }

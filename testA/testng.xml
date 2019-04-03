@@ -5,6 +5,23 @@
             <class name="demo1.testSuite"/>
             <class name="passport.PassportModel"/>
         </classes>
+
+    </test>
+    <test name="testlogin">
+        <classes>
+            <class name="passport.PassportModel">
+                <methods>
+                    <include name="loginByPhone"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="groupstest">
+        <groups>
+            <run>
+                <include name="loginTest"/>
+            </run>
+        </groups>
     </test>
     <listeners>
         <listener class-name="util.ExtentTestNGIReporterListener"/>
