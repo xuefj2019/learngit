@@ -1,10 +1,6 @@
 package util;
 
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.log4j.Logger;
-import org.testng.Assert;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
+
 /**
  * Created by Administrator on 2019/4/12.
  * 断言，使用PostClass类，返回response
