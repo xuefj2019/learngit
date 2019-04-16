@@ -14,6 +14,18 @@
                     <include name="loginByPhone"></include>
                 </methods>
             </class>
+            <class name="ccj.product">
+                <methods>
+                    <include name="check_colls_has_newp_Test01"></include>
+                    <include name="check_colls_has_newp_Test02"></include>
+                    <include name="check_colls_has_newp_Test03"></include>
+                </methods>
+            </class>
+            <class name="ccj.IndexPage">
+                <methods>
+                    <include name="test01"></include>
+                </methods>
+            </class>
         </classes>
     </test>
     <test name="groupstest">

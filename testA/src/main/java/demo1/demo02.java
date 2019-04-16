@@ -44,7 +44,7 @@ public class demo02 {
         //参数
         List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
 
-
+        //请求参数参数体
         if(param != null && !param.isEmpty()){
 //            List<NameValuePair> list = new ArrayList<NameValuePair>();
             for(String key:param.keySet()){
@@ -53,7 +53,8 @@ public class demo02 {
 
             httpPost.setEntity(new UrlEncodedFormEntity(urlParameters, HTTP.UTF_8));
         }
-
+//        httpPost.setHeader();
+//        httpPost.setEntity();
         //响应
         CloseableHttpResponse response = null;
         response = httpClient.execute(httpPost);

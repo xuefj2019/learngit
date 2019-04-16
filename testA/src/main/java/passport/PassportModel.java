@@ -83,6 +83,7 @@ public class PassportModel {
         Map<String,Object> param = new HashMap<String,Object>();
         param.put("data","{\"api_version\":\"1.1\",\"channel\":\"QD_yyb\",\"client_type\":\"android\",\"client_version\":\"3.32.147\",\"deviceBrand\":\"OPPO OPPO R9m\",\"deviceId\":\"e71bd653dc2fe81eb6cd3b6984e5b189\",\"gender\":\"0\",\"imei\":\"863048031850535\",\"is_relevance_list\":\"1\",\"method\":\"login_by_phone\",\"net\":\"wifi\",\"package_name\":\"com.culiukeji.huanletao\",\"password\":\"36bdd4f956a5246c1efee5b87de0e231\",\"phone_number\":\"15901459014\",\"screen\":\"1920*1080\",\"sdkVersion\":\"5.1\",\"series_number\":\"XkQVb3\",\"sessionId\":\"c3a92b26e8245799e168f1b2da537e33\",\"sign\":\"4B8FB06D17FA13F333BE2CDEEEEA6508\",\"sms_code\":\"\",\"timeStamp\":1554087918094,\"token\":\"\",\"update_verify_flag\":0,\"userId\":\"0\",\"verify_code\":\"\",\"xingeToken\":\"\"}");
 
+        System.out.println(param.values());
         String result = demo.headerPost(path,header,param);
         System.out.println(result);
     }
